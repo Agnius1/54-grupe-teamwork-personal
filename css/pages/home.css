@@ -1,8 +1,11 @@
 /* base */
 @import '../base/main.css';
+@import '../base/layout.css';
 
 /* vendor */
 
 /* components */
+@import '../components/header.css';
+@import '../components/general-listing-card.css';
 
 /* custom */

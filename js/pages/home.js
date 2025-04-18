@@ -1,27 +1,25 @@
-import {header} from '../components/header.js';
-import {thisIsMe} from '../components/thisIsMe.js';
-import {aboutMe} from '../components/aboutMe.js';
-import {myOfferedServices} from '../components/myOfferedServices.js';
-import {factNumber} from '../components/factNumber.js';
-import {portfolio} from '../components/portfolio.js';
-import {feedback} from '../components/feedback.js';
-import {plans} from '../components/plans.js';
-import {blog} from '../components/blog.js';
-import {brands} from '../components/brands.js';
-import {footer} from '../components/footer.js';
+import { header } from "../sections/header.js";
+import { hero } from "../sections/hero.js";
+import { thisIsMe } from "../sections/thisIsMe.js";
+import { aboutMe } from "../sections/aboutMe.js";
+import { myOfferedServices } from "../sections/myOfferedServices.js";
+import { factNumber } from "../sections/factNumber.js";
+import { portfolio } from "../sections/portfolio.js";
+import { feedback } from "../sections/feedback.js";
+import { plans } from "../sections/plans.js";
+import { blog } from "../sections/blog.js";
+import { brands } from "../sections/brands.js";
+import { footer } from "../sections/footer.js";
 
-
-
-
-
-//header
-//This is me
-//About Me
-//My Offered Services
-//fact num
-//portfolio, Our Latest Featured Projects
-//Client’s Feedback About Me
-//Choose Your Plan
-//Latest posts from our blog
-//brand area
-//footer
+header();
+hero();
+thisIsMe();
+aboutMe();
+myOfferedServices();
+factNumber();
+portfolio();
+feedback();
+plans();
+blog();
+brands();
+footer();
